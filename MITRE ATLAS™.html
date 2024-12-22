@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://atlas.mitre.org/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="https://atlas.mitre.org/atlas.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITRE ATLAS™</title>
+    <script type="module" crossorigin="" src="./MITRE ATLAS™_files/index-BJ3ql_OM.js.download"></script>
+    <link rel="stylesheet" crossorigin="" href="./MITRE ATLAS™_files/index-CiwRb72i.css">
+  <style type="text/css" id="vuetify-theme-stylesheet">:root {
+      --v-theme-background: 255,255,255;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 255,255,255;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 255,255,255;
+      --v-theme-surface-bright-overlay-multiplier: 1;
+      --v-theme-surface-light: 238,238,238;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 66,66,66;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 238,238,238;
+      --v-theme-primary: 66,66,66;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 31,85,146;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 73,87,178;
+      --v-theme-secondary-overlay-multiplier: 2;
+      --v-theme-secondary-darken-1: 1,135,134;
+      --v-theme-secondary-darken-1-overlay-multiplier: 1;
+      --v-theme-error: 176,0,32;
+      --v-theme-error-overlay-multiplier: 2;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 1;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 1;
+      --v-theme-warning: 251,140,0;
+      --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-header: 66,66,66;
+      --v-theme-header-overlay-multiplier: 2;
+      --v-theme-bruhus: 251,140,0;
+      --v-theme-bruhus-overlay-multiplier: 1;
+      --v-theme-blue: 0,91,148;
+      --v-theme-blue-overlay-multiplier: 2;
+      --v-theme-highlighter: 255,246,1;
+      --v-theme-highlighter-overlay-multiplier: 1;
+      --v-theme-darkNavy: 11,35,56;
+      --v-theme-darkNavy-overlay-multiplier: 2;
+      --v-theme-navy: 13,47,79;
+      --v-theme-navy-overlay-multiplier: 2;
+      --v-theme-lightBlue: 135,222,255;
+      --v-theme-lightBlue-overlay-multiplier: 1;
+      --v-theme-darkGray: 126,130,132;
+      --v-theme-darkGray-overlay-multiplier: 1;
+      --v-theme-silver: 212,212,211;
+      --v-theme-silver-overlay-multiplier: 1;
+      --v-theme-lightSilver: 241,243,244;
+      --v-theme-lightSilver-overlay-multiplier: 1;
+      --v-theme-on-background: 0,0,0;
+      --v-theme-on-surface: 0,0,0;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 0,0,0;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 255,255,255;
+      --v-theme-on-header: 255,255,255;
+      --v-theme-on-bruhus: 255,255,255;
+      --v-theme-on-blue: 255,255,255;
+      --v-theme-on-highlighter: 0,0,0;
+      --v-theme-on-darkNavy: 255,255,255;
+      --v-theme-on-navy: 255,255,255;
+      --v-theme-on-lightBlue: 0,0,0;
+      --v-theme-on-darkGray: 255,255,255;
+      --v-theme-on-silver: 0,0,0;
+      --v-theme-on-lightSilver: 0,0,0;
+      --v-border-color: 0, 0, 0;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 0.87;
+      --v-medium-emphasis-opacity: 0.6;
+      --v-disabled-opacity: 0.38;
+      --v-idle-opacity: 0.04;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.12;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 33, 37, 41;
+      --v-theme-on-kbd: 255, 255, 255;
+      --v-theme-code: 245, 245, 245;
+      --v-theme-on-code: 0, 0, 0;
+    }
+    .v-theme--light {
+      color-scheme: normal;
+      --v-theme-background: 255,255,255;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 255,255,255;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 255,255,255;
+      --v-theme-surface-bright-overlay-multiplier: 1;
+      --v-theme-surface-light: 238,238,238;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 66,66,66;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 238,238,238;
+      --v-theme-primary: 24,103,192;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 31,85,146;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 72,169,166;
+      --v-theme-secondary-overlay-multiplier: 1;
+      --v-theme-secondary-darken-1: 1,135,134;
+      --v-theme-secondary-darken-1-overlay-multiplier: 1;
+      --v-theme-error: 176,0,32;
+      --v-theme-error-overlay-multiplier: 2;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 1;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 1;
+      --v-theme-warning: 251,140,0;
+      --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-on-background: 0,0,0;
+      --v-theme-on-surface: 0,0,0;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 0,0,0;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 255,255,255;
+      --v-border-color: 0, 0, 0;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 0.87;
+      --v-medium-emphasis-opacity: 0.6;
+      --v-disabled-opacity: 0.38;
+      --v-idle-opacity: 0.04;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.12;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 33, 37, 41;
+      --v-theme-on-kbd: 255, 255, 255;
+      --v-theme-code: 245, 245, 245;
+      --v-theme-on-code: 0, 0, 0;
+    }
+    .v-theme--dark {
+      color-scheme: dark;
+      --v-theme-background: 18,18,18;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 33,33,33;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 204,191,214;
+      --v-theme-surface-bright-overlay-multiplier: 2;
+      --v-theme-surface-light: 66,66,66;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 163,163,163;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 66,66,66;
+      --v-theme-primary: 33,150,243;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 39,124,193;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 84,182,178;
+      --v-theme-secondary-overlay-multiplier: 2;
+      --v-theme-secondary-darken-1: 72,169,166;
+      --v-theme-secondary-darken-1-overlay-multiplier: 2;
+      --v-theme-error: 207,102,121;
+      --v-theme-error-overlay-multiplier: 2;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 2;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 2;
+      --v-theme-warning: 251,140,0;
+      --v-theme-warning-overlay-multiplier: 2;
+      --v-theme-on-background: 255,255,255;
+      --v-theme-on-surface: 255,255,255;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 255,255,255;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 255,255,255;
+      --v-border-color: 255, 255, 255;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 1;
+      --v-medium-emphasis-opacity: 0.7;
+      --v-disabled-opacity: 0.5;
+      --v-idle-opacity: 0.1;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.16;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 33, 37, 41;
+      --v-theme-on-kbd: 255, 255, 255;
+      --v-theme-code: 52, 52, 52;
+      --v-theme-on-code: 204, 204, 204;
+    }
+    .v-theme--mainTheme {
+      color-scheme: normal;
+      --v-theme-background: 255,255,255;
+      --v-theme-background-overlay-multiplier: 1;
+      --v-theme-surface: 255,255,255;
+      --v-theme-surface-overlay-multiplier: 1;
+      --v-theme-surface-bright: 255,255,255;
+      --v-theme-surface-bright-overlay-multiplier: 1;
+      --v-theme-surface-light: 238,238,238;
+      --v-theme-surface-light-overlay-multiplier: 1;
+      --v-theme-surface-variant: 66,66,66;
+      --v-theme-surface-variant-overlay-multiplier: 2;
+      --v-theme-on-surface-variant: 238,238,238;
+      --v-theme-primary: 66,66,66;
+      --v-theme-primary-overlay-multiplier: 2;
+      --v-theme-primary-darken-1: 31,85,146;
+      --v-theme-primary-darken-1-overlay-multiplier: 2;
+      --v-theme-secondary: 73,87,178;
+      --v-theme-secondary-overlay-multiplier: 2;
+      --v-theme-secondary-darken-1: 1,135,134;
+      --v-theme-secondary-darken-1-overlay-multiplier: 1;
+      --v-theme-error: 176,0,32;
+      --v-theme-error-overlay-multiplier: 2;
+      --v-theme-info: 33,150,243;
+      --v-theme-info-overlay-multiplier: 1;
+      --v-theme-success: 76,175,80;
+      --v-theme-success-overlay-multiplier: 1;
+      --v-theme-warning: 251,140,0;
+      --v-theme-warning-overlay-multiplier: 1;
+      --v-theme-header: 66,66,66;
+      --v-theme-header-overlay-multiplier: 2;
+      --v-theme-bruhus: 251,140,0;
+      --v-theme-bruhus-overlay-multiplier: 1;
+      --v-theme-blue: 0,91,148;
+      --v-theme-blue-overlay-multiplier: 2;
+      --v-theme-highlighter: 255,246,1;
+      --v-theme-highlighter-overlay-multiplier: 1;
+      --v-theme-darkNavy: 11,35,56;
+      --v-theme-darkNavy-overlay-multiplier: 2;
+      --v-theme-navy: 13,47,79;
+      --v-theme-navy-overlay-multiplier: 2;
+      --v-theme-lightBlue: 135,222,255;
+      --v-theme-lightBlue-overlay-multiplier: 1;
+      --v-theme-darkGray: 126,130,132;
+      --v-theme-darkGray-overlay-multiplier: 1;
+      --v-theme-silver: 212,212,211;
+      --v-theme-silver-overlay-multiplier: 1;
+      --v-theme-lightSilver: 241,243,244;
+      --v-theme-lightSilver-overlay-multiplier: 1;
+      --v-theme-on-background: 0,0,0;
+      --v-theme-on-surface: 0,0,0;
+      --v-theme-on-surface-bright: 0,0,0;
+      --v-theme-on-surface-light: 0,0,0;
+      --v-theme-on-primary: 255,255,255;
+      --v-theme-on-primary-darken-1: 255,255,255;
+      --v-theme-on-secondary: 255,255,255;
+      --v-theme-on-secondary-darken-1: 255,255,255;
+      --v-theme-on-error: 255,255,255;
+      --v-theme-on-info: 255,255,255;
+      --v-theme-on-success: 255,255,255;
+      --v-theme-on-warning: 255,255,255;
+      --v-theme-on-header: 255,255,255;
+      --v-theme-on-bruhus: 255,255,255;
+      --v-theme-on-blue: 255,255,255;
+      --v-theme-on-highlighter: 0,0,0;
+      --v-theme-on-darkNavy: 255,255,255;
+      --v-theme-on-navy: 255,255,255;
+      --v-theme-on-lightBlue: 0,0,0;
+      --v-theme-on-darkGray: 255,255,255;
+      --v-theme-on-silver: 0,0,0;
+      --v-theme-on-lightSilver: 0,0,0;
+      --v-border-color: 0, 0, 0;
+      --v-border-opacity: 0.12;
+      --v-high-emphasis-opacity: 0.87;
+      --v-medium-emphasis-opacity: 0.6;
+      --v-disabled-opacity: 0.38;
+      --v-idle-opacity: 0.04;
+      --v-hover-opacity: 0.04;
+      --v-focus-opacity: 0.12;
+      --v-selected-opacity: 0.08;
+      --v-activated-opacity: 0.12;
+      --v-pressed-opacity: 0.12;
+      --v-dragged-opacity: 0.08;
+      --v-theme-kbd: 33, 37, 41;
+      --v-theme-on-kbd: 255, 255, 255;
+      --v-theme-code: 245, 245, 245;
+      --v-theme-on-code: 0, 0, 0;
+    }
+    .bg-background {
+      --v-theme-overlay-multiplier: var(--v-theme-background-overlay-multiplier);
+      background-color: rgb(var(--v-theme-background)) !important;
+      color: rgb(var(--v-theme-on-background)) !important;
+    }
+    .bg-surface {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface)) !important;
+      color: rgb(var(--v-theme-on-surface)) !important;
+    }
+    .bg-surface-bright {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-bright-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface-bright)) !important;
+      color: rgb(var(--v-theme-on-surface-bright)) !important;
+    }
+    .bg-surface-light {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-light-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface-light)) !important;
+      color: rgb(var(--v-theme-on-surface-light)) !important;
+    }
+    .bg-surface-variant {
+      --v-theme-overlay-multiplier: var(--v-theme-surface-variant-overlay-multiplier);
+      background-color: rgb(var(--v-theme-surface-variant)) !important;
+      color: rgb(var(--v-theme-on-surface-variant)) !important;
+    }
+    .bg-primary {
+      --v-theme-overlay-multiplier: var(--v-theme-primary-overlay-multiplier);
+      background-color: rgb(var(--v-theme-primary)) !important;
+      color: rgb(var(--v-theme-on-primary)) !important;
+    }
+    .bg-primary-darken-1 {
+      --v-theme-overlay-multiplier: var(--v-theme-primary-darken-1-overlay-multiplier);
+      background-color: rgb(var(--v-theme-primary-darken-1)) !important;
+      color: rgb(var(--v-theme-on-primary-darken-1)) !important;
+    }
+    .bg-secondary {
+      --v-theme-overlay-multiplier: var(--v-theme-secondary-overlay-multiplier);
+      background-color: rgb(var(--v-theme-secondary)) !important;
+      color: rgb(var(--v-theme-on-secondary)) !important;
+    }
+    .bg-secondary-darken-1 {
+      --v-theme-overlay-multiplier: var(--v-theme-secondary-darken-1-overlay-multiplier);
+      background-color: rgb(var(--v-theme-secondary-darken-1)) !important;
+      color: rgb(var(--v-theme-on-secondary-darken-1)) !important;
+    }
+    .bg-error {
+      --v-theme-overlay-multiplier: var(--v-theme-error-overlay-multiplier);
+      background-color: rgb(var(--v-theme-error)) !important;
+      color: rgb(var(--v-theme-on-error)) !important;
+    }
+    .bg-info {
+      --v-theme-overlay-multiplier: var(--v-theme-info-overlay-multiplier);
+      background-color: rgb(var(--v-theme-info)) !important;
+      color: rgb(var(--v-theme-on-info)) !important;
+    }
+    .bg-success {
+      --v-theme-overlay-multiplier: var(--v-theme-success-overlay-multiplier);
+      background-color: rgb(var(--v-theme-success)) !important;
+      color: rgb(var(--v-theme-on-success)) !important;
+    }
+    .bg-warning {
+      --v-theme-overlay-multiplier: var(--v-theme-warning-overlay-multiplier);
+      background-color: rgb(var(--v-theme-warning)) !important;
+      color: rgb(var(--v-theme-on-warning)) !important;
+    }
+    .bg-header {
+      --v-theme-overlay-multiplier: var(--v-theme-header-overlay-multiplier);
+      background-color: rgb(var(--v-theme-header)) !important;
+      color: rgb(var(--v-theme-on-header)) !important;
+    }
+    .bg-bruhus {
+      --v-theme-overlay-multiplier: var(--v-theme-bruhus-overlay-multiplier);
+      background-color: rgb(var(--v-theme-bruhus)) !important;
+      color: rgb(var(--v-theme-on-bruhus)) !important;
+    }
+    .bg-blue {
+      --v-theme-overlay-multiplier: var(--v-theme-blue-overlay-multiplier);
+      background-color: rgb(var(--v-theme-blue)) !important;
+      color: rgb(var(--v-theme-on-blue)) !important;
+    }
+    .bg-highlighter {
+      --v-theme-overlay-multiplier: var(--v-theme-highlighter-overlay-multiplier);
+      background-color: rgb(var(--v-theme-highlighter)) !important;
+      color: rgb(var(--v-theme-on-highlighter)) !important;
+    }
+    .bg-darkNavy {
+      --v-theme-overlay-multiplier: var(--v-theme-darkNavy-overlay-multiplier);
+      background-color: rgb(var(--v-theme-darkNavy)) !important;
+      color: rgb(var(--v-theme-on-darkNavy)) !important;
+    }
+    .bg-navy {
+      --v-theme-overlay-multiplier: var(--v-theme-navy-overlay-multiplier);
+      background-color: rgb(var(--v-theme-navy)) !important;
+      color: rgb(var(--v-theme-on-navy)) !important;
+    }
+    .bg-lightBlue {
+      --v-theme-overlay-multiplier: var(--v-theme-lightBlue-overlay-multiplier);
+      background-color: rgb(var(--v-theme-lightBlue)) !important;
+      color: rgb(var(--v-theme-on-lightBlue)) !important;
+    }
+    .bg-darkGray {
+      --v-theme-overlay-multiplier: var(--v-theme-darkGray-overlay-multiplier);
+      background-color: rgb(var(--v-theme-darkGray)) !important;
+      color: rgb(var(--v-theme-on-darkGray)) !important;
+    }
+    .bg-silver {
+      --v-theme-overlay-multiplier: var(--v-theme-silver-overlay-multiplier);
+      background-color: rgb(var(--v-theme-silver)) !important;
+      color: rgb(var(--v-theme-on-silver)) !important;
+    }
+    .bg-lightSilver {
+      --v-theme-overlay-multiplier: var(--v-theme-lightSilver-overlay-multiplier);
+      background-color: rgb(var(--v-theme-lightSilver)) !important;
+      color: rgb(var(--v-theme-on-lightSilver)) !important;
+    }
+    .text-background {
+      color: rgb(var(--v-theme-background)) !important;
+    }
+    .border-background {
+      --v-border-color: var(--v-theme-background);
+    }
+    .text-surface {
+      color: rgb(var(--v-theme-surface)) !important;
+    }
+    .border-surface {
+      --v-border-color: var(--v-theme-surface);
+    }
+    .text-surface-bright {
+      color: rgb(var(--v-theme-surface-bright)) !important;
+    }
+    .border-surface-bright {
+      --v-border-color: var(--v-theme-surface-bright);
+    }
+    .text-surface-light {
+      color: rgb(var(--v-theme-surface-light)) !important;
+    }
+    .border-surface-light {
+      --v-border-color: var(--v-theme-surface-light);
+    }
+    .text-surface-variant {
+      color: rgb(var(--v-theme-surface-variant)) !important;
+    }
+    .border-surface-variant {
+      --v-border-color: var(--v-theme-surface-variant);
+    }
+    .on-surface-variant {
+      color: rgb(var(--v-theme-on-surface-variant)) !important;
+    }
+    .text-primary {
+      color: rgb(var(--v-theme-primary)) !important;
+    }
+    .border-primary {
+      --v-border-color: var(--v-theme-primary);
+    }
+    .text-primary-darken-1 {
+      color: rgb(var(--v-theme-primary-darken-1)) !important;
+    }
+    .border-primary-darken-1 {
+      --v-border-color: var(--v-theme-primary-darken-1);
+    }
+    .text-secondary {
+      color: rgb(var(--v-theme-secondary)) !important;
+    }
+    .border-secondary {
+      --v-border-color: var(--v-theme-secondary);
+    }
+    .text-secondary-darken-1 {
+      color: rgb(var(--v-theme-secondary-darken-1)) !important;
+    }
+    .border-secondary-darken-1 {
+      --v-border-color: var(--v-theme-secondary-darken-1);
+    }
+    .text-error {
+      color: rgb(var(--v-theme-error)) !important;
+    }
+    .border-error {
+      --v-border-color: var(--v-theme-error);
+    }
+    .text-info {
+      color: rgb(var(--v-theme-info)) !important;
+    }
+    .border-info {
+      --v-border-color: var(--v-theme-info);
+    }
+    .text-success {
+      color: rgb(var(--v-theme-success)) !important;
+    }
+    .border-success {
+      --v-border-color: var(--v-theme-success);
+    }
+    .text-warning {
+      color: rgb(var(--v-theme-warning)) !important;
+    }
+    .border-warning {
+      --v-border-color: var(--v-theme-warning);
+    }
+    .on-background {
+      color: rgb(var(--v-theme-on-background)) !important;
+    }
+    .on-surface {
+      color: rgb(var(--v-theme-on-surface)) !important;
+    }
+    .on-surface-bright {
+      color: rgb(var(--v-theme-on-surface-bright)) !important;
+    }
+    .on-surface-light {
+      color: rgb(var(--v-theme-on-surface-light)) !important;
+    }
+    .on-primary {
+      color: rgb(var(--v-theme-on-primary)) !important;
+    }
+    .on-primary-darken-1 {
+      color: rgb(var(--v-theme-on-primary-darken-1)) !important;
+    }
+    .on-secondary {
+      color: rgb(var(--v-theme-on-secondary)) !important;
+    }
+    .on-secondary-darken-1 {
+      color: rgb(var(--v-theme-on-secondary-darken-1)) !important;
+    }
+    .on-error {
+      color: rgb(var(--v-theme-on-error)) !important;
+    }
+    .on-info {
+      color: rgb(var(--v-theme-on-info)) !important;
+    }
+    .on-success {
+      color: rgb(var(--v-theme-on-success)) !important;
+    }
+    .on-warning {
+      color: rgb(var(--v-theme-on-warning)) !important;
+    }
+    .text-header {
+      color: rgb(var(--v-theme-header)) !important;
+    }
+    .border-header {
+      --v-border-color: var(--v-theme-header);
+    }
+    .text-bruhus {
+      color: rgb(var(--v-theme-bruhus)) !important;
+    }
+    .border-bruhus {
+      --v-border-color: var(--v-theme-bruhus);
+    }
+    .text-blue {
+      color: rgb(var(--v-theme-blue)) !important;
+    }
+    .border-blue {
+      --v-border-color: var(--v-theme-blue);
+    }
+    .text-highlighter {
+      color: rgb(var(--v-theme-highlighter)) !important;
+    }
+    .border-highlighter {
+      --v-border-color: var(--v-theme-highlighter);
+    }
+    .text-darkNavy {
+      color: rgb(var(--v-theme-darkNavy)) !important;
+    }
+    .border-darkNavy {
+      --v-border-color: var(--v-theme-darkNavy);
+    }
+    .text-navy {
+      color: rgb(var(--v-theme-navy)) !important;
+    }
+    .border-navy {
+      --v-border-color: var(--v-theme-navy);
+    }
+    .text-lightBlue {
+      color: rgb(var(--v-theme-lightBlue)) !important;
+    }
+    .border-lightBlue {
+      --v-border-color: var(--v-theme-lightBlue);
+    }
+    .text-darkGray {
+      color: rgb(var(--v-theme-darkGray)) !important;
+    }
+    .border-darkGray {
+      --v-border-color: var(--v-theme-darkGray);
+    }
+    .text-silver {
+      color: rgb(var(--v-theme-silver)) !important;
+    }
+    .border-silver {
+      --v-border-color: var(--v-theme-silver);
+    }
+    .text-lightSilver {
+      color: rgb(var(--v-theme-lightSilver)) !important;
+    }
+    .border-lightSilver {
+      --v-border-color: var(--v-theme-lightSilver);
+    }
+    .on-header {
+      color: rgb(var(--v-theme-on-header)) !important;
+    }
+    .on-bruhus {
+      color: rgb(var(--v-theme-on-bruhus)) !important;
+    }
+    .on-blue {
+      color: rgb(var(--v-theme-on-blue)) !important;
+    }
+    .on-highlighter {
+      color: rgb(var(--v-theme-on-highlighter)) !important;
+    }
+    .on-darkNavy {
+      color: rgb(var(--v-theme-on-darkNavy)) !important;
+    }
+    .on-navy {
+      color: rgb(var(--v-theme-on-navy)) !important;
+    }
+    .on-lightBlue {
+      color: rgb(var(--v-theme-on-lightBlue)) !important;
+    }
+    .on-darkGray {
+      color: rgb(var(--v-theme-on-darkGray)) !important;
+    }
+    .on-silver {
+      color: rgb(var(--v-theme-on-silver)) !important;
+    }
+    .on-lightSilver {
+      color: rgb(var(--v-theme-on-lightSilver)) !important;
+    }
+</style><link href="https://www.googletagmanager.com/" rel="preconnect"><script async="" src="./MITRE ATLAS™_files/js"></script><script src="./MITRE ATLAS™_files/osano.js.download"></script><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/Home-D0aBVc2k.js"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/VAlert-C-qFqPug.js"><link rel="stylesheet" href="./MITRE ATLAS™_files/VAlert-DqKfcPM6.css"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/VCard-CZlPNh1x.js"><link rel="stylesheet" href="./MITRE ATLAS™_files/VCard-IfustgPV.css"><link rel="stylesheet" href="./MITRE ATLAS™_files/Home-B9hZjPvb.css"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/ObjectListView-DZr6Jlr8.js"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/PageSectionTitle.vue_vue_type_script_setup_true_lang-MdwKFcmm.js"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/ErrorNotFoundView.vue_vue_type_script_setup_true_lang-BkgE4EvQ.js"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/InfoTable-DOz6bhDL.js"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/VTooltip-DJPja9CX.js"><link rel="stylesheet" href="./MITRE ATLAS™_files/VTooltip-CL_6g4tJ.css"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/filter-HuafWGFA.js"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/VChip-Dqk5BvvI.js"><link rel="stylesheet" href="./MITRE ATLAS™_files/VChip-Cta634PT.css"><link rel="stylesheet" href="./MITRE ATLAS™_files/filter-CyTa00YA.css"><link rel="modulepreload" as="script" crossorigin="" href="https://atlas.mitre.org/assets/VDataTable-BZEQL0lm.js"><link rel="stylesheet" href="./MITRE ATLAS™_files/VDataTable-xQLR1vh1.css"><link rel="stylesheet" href="./MITRE ATLAS™_files/InfoTable-DdAIbELi.css"></head>
+  <body>
+    <div id="app" data-v-app=""><div class="v-application v-theme--mainTheme v-layout v-layout--full-height v-locale--is-ltr"><div class="v-application__wrap"><header class="v-toolbar v-toolbar--density-default bg-navy v-theme--mainTheme v-locale--is-ltr v-app-bar" dark="" clipped-left="" elevate-on-scroll="" style="top: 0px; z-index: 1008; transform: translateY(0%); position: fixed; left: 0px; width: calc(100% + 0px);"><!----><div class="v-toolbar__content" style="height: 64px;"><!----><!----><!----><h1 class="pa-3"><a href="https://atlas.mitre.org/" class="router-link-active router-link-exact-active" aria-current="page"><img src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27UTF-8%27?%3e%3csvg%20id=%27Layer_2%27%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%20216.45%2029.31%27%3e%3cdefs%3e%3cstyle%3e.cls-1{fill:%238ed8f8;}.cls-1,.cls-2{stroke-width:0px;}.cls-2{fill:%23fff;}%3c/style%3e%3c/defs%3e%3cg%20id=%27Layer_1-2%27%3e%3cpath%20class=%27cls-2%27%20d=%27M7.62.39l4.94,18.68h.08L17.58.39h7.62v28.52h-4.66V6.48h-.08l-5.81,22.44h-4.11L4.74,6.48h-.08v22.44H0V.39h7.62Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M36.18.39v28.52h-5.45V.39h5.45Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M57.9.39v4.82h-6.36v23.7h-5.45V5.21h-6.36V.39h18.17Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M69.16.39c5.73,0,9.56,2.61,9.56,8.53,0,3.55-1.26,6.12-4.31,7.27l5.37,12.72h-5.85l-4.74-11.61h-2.61v11.61h-5.45V.39h8.02ZM69.51,12.8c2.41,0,3.75-1.34,3.75-3.95s-1.34-3.95-3.79-3.95h-2.88v7.9h2.92Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M98.03.39v4.82h-9.48v6.56h7.23v4.82h-7.23v7.51h9.87v4.82h-15.33V.39h14.93Z%27/%3e%3cpath%20class=%27cls-1%27%20d=%27M124.75.4l6.87,28.52h-5.21l-1.38-6h-7.54l-1.54,6h-5.25L117.76.4h6.99ZM121.15,6.56l-2.69,11.53h5.41l-2.65-11.53h-.08Z%27/%3e%3cpath%20class=%27cls-1%27%20d=%27M149.47.4v4.82h-6.36v23.7h-5.45V5.21h-6.36V.4h18.17Z%27/%3e%3cpath%20class=%27cls-1%27%20d=%27M158.72.4v23.7h8.77v4.82h-14.22V.4h5.45Z%27/%3e%3cpath%20class=%27cls-1%27%20d=%27M183.48.4l6.87,28.52h-5.21l-1.38-6h-7.54l-1.54,6h-5.25L176.49.4h6.99ZM179.89,6.56l-2.69,11.53h5.41l-2.65-11.53h-.08Z%27/%3e%3cpath%20class=%27cls-1%27%20d=%27M210.81,6.91l-4.9,1.42c-.91-2.69-2.09-3.83-3.99-3.83s-3,1.19-3,3.08c0,2.01,2.61,3.2,5.33,4.66,4.34,2.33,6.83,4.82,6.83,8.93,0,5.25-3.87,8.14-9.05,8.14-4.82,0-7.98-2.77-9.36-8.02l5.37-1.15c.55,3,2.21,4.66,4.23,4.66s3.36-1.38,3.36-3.4c0-2.65-2.69-3.83-6.71-6.08-3.67-2.05-5.45-4.34-5.45-7.35,0-5.25,3.32-7.98,8.57-7.98,4.46,0,7.66,2.45,8.77,6.91Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M212.91.31v.58h-.77v2.86h-.66V.9h-.77V.31h2.19Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M214.33.31l.6,2.26h0l.6-2.26h.92v3.45h-.56V1.05h0l-.7,2.71h-.5l-.7-2.71h-.01v2.71h-.56V.31h.92Z%27/%3e%3c/g%3e%3c/svg%3e" width="200" contain=""></a></h1><div class="v-spacer"></div><div class="v-toolbar-items"><a class="v-btn v-btn--stacked v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text text-capitalize" href="https://atlas.mitre.org/matrices/ATLAS" style="height: inherit;">Matrix</a></div><div class="v-toolbar-items"><a class="v-btn v-btn--stacked v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text text-capitalize" href="https://atlas.mitre.org/tactics" style="height: inherit;">tactics</a></div><div class="v-toolbar-items"><a class="v-btn v-btn--stacked v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text text-capitalize" href="https://atlas.mitre.org/techniques" style="height: inherit;">techniques</a></div><div class="v-toolbar-items"><a class="v-btn v-btn--stacked v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text text-capitalize" href="https://atlas.mitre.org/mitigations" style="height: inherit;">mitigations</a></div><div class="v-toolbar-items"><button type="button" class="v-btn v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text text-capitalize" targetref="[object Object]" aria-haspopup="menu" aria-expanded="false" aria-owns="v-menu-5" style="height: inherit;"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Case Studies <i class="mdi-menu-down mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true" right=""></i></span><!----><!----></button><!----></div><div class="v-toolbar-items"><button type="button" class="v-btn v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text text-capitalize" targetref="[object Object]" aria-haspopup="menu" aria-expanded="false" aria-owns="v-menu-7" style="height: inherit;"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Resources <i class="mdi-menu-down mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true" right=""></i></span><!----><!----></button><!----></div><!----><!----></div><!----></header><!----><main class="v-main" style="--v-layout-left: 0px; --v-layout-right: 0px; --v-layout-top: 64px; --v-layout-bottom: 696px;"><!----><div class="row flex-center"><div><div data-v-677661f1="" class="v-container v-container--fluid v-locale--is-ltr hero-image pa-0" align="center"><div data-v-677661f1="" class="v-alert v-theme--mainTheme text-white v-alert--density-default v-alert--variant-tonal" role="alert" align="left" style="max-width: 100%;"><!----><span class="v-alert__underlay"></span><!----><div class="v-alert__prepend"><i class="mdi-clipboard-check-outline mdi v-icon notranslate v-theme--mainTheme" aria-hidden="true" density="default" style="font-size: 28px; height: 28px; width: 28px;"></i></div><div class="v-alert__content"><!----><!----><span class="text-body-2"> Please take our <a class="text-lightBlue font-weight-bold text-decoration-underline" href="https://forms.office.com/Pages/ResponsePage.aspx?id=SNwgxlAdUkmLOd9NVNdNgvUh6fWQs9dNlvXpIGCIYZhUMEtXUUlKSUtPNlJESDMyRTk1RlQzVzZVMyQlQCN0PWcu"> ATLAS Feedback &amp; Usage Survey</a> by Friday, Nov 22 to help us plan the future of ATLAS! </span></div><!----><div class="v-alert__close"><button type="button" class="v-btn v-btn--icon v-theme--mainTheme v-btn--density-default v-btn--size-x-small v-btn--variant-text" aria-label="Close"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""><i class="mdi-close mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----><!----></button></div></div><div data-v-677661f1="" class="v-container v-container--fluid v-locale--is-ltr home-panel" align="left"><div data-v-677661f1="" class="v-row align-center justify-center" style="height: 100%;"><div data-v-677661f1="" class="v-col v-col-7 text-white ml-2"><div data-v-677661f1="" class="text-h1 mt-3"><b data-v-677661f1="" class="tagline">Navigate threats to AI systems through <span data-v-677661f1="" class="text-highlighter">real-world insights</span></b></div></div><div data-v-677661f1="" class="v-col v-col-4 align-self-end ml-2 text-center"><a data-v-677661f1="" class="v-btn v-theme--mainTheme bg-highlighter v-btn--density-default v-btn--size-x-large v-btn--variant-flat" href="https://atlas.mitre.org/matrices/ATLAS"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">See the full ATLAS Matrix </span><span class="v-btn__append"><i class="mdi-chevron-right mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----></a></div></div></div></div><div class="v-container v-locale--is-ltr home-panel"><div class="v-row align-center justify-center"><div class="v-col"><div class="v-card v-card--flat v-theme--mainTheme v-card--density-default v-card--variant-elevated"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--mainTheme v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);"><!----><div class="v-progress-linear__background" style="width: 100%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><div class="v-card-title"><div class="v-responsive v-img" style="max-height: 150px;"><div class="v-responsive__sizer" style="padding-bottom: 47.6667%;"></div><img class="v-img__img v-img__img--contain" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27UTF-8%27?%3e%3csvg%20id=%27Layer_2%27%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%20210.09%20100%27%3e%3cdefs%3e%3cstyle%3e.cls-1{fill:%230d2f4f;}.cls-1,.cls-2,.cls-3{stroke-width:0px;}.cls-2{fill:%230e2f4f;}.cls-3{fill:%231bb0e6;}%3c/style%3e%3c/defs%3e%3cg%20id=%27Layer_1-2%27%3e%3cpath%20class=%27cls-2%27%20d=%27M117.82,18.29l4.75,17.98h.08l4.75-17.98h7.34v27.44h-4.49v-21.59h-.08l-5.59,21.59h-3.95l-5.59-21.59h-.08v21.59h-4.49v-27.44h7.34Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M145.3,18.29v27.44h-5.25v-27.44h5.25Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M166.2,18.29v4.64h-6.12v22.81h-5.25v-22.81h-6.12v-4.64h17.48Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M177.03,18.29c5.51,0,9.2,2.51,9.2,8.21,0,3.42-1.22,5.89-4.14,6.99l5.17,12.24h-5.63l-4.56-11.17h-2.51v11.17h-5.25v-27.44h7.72ZM177.38,30.22c2.32,0,3.61-1.29,3.61-3.8s-1.29-3.8-3.65-3.8h-2.77v7.6h2.81Z%27/%3e%3cpath%20class=%27cls-2%27%20d=%27M204.82,18.29v4.64h-9.12v6.31h6.96v4.64h-6.96v7.22h9.5v4.64h-14.75v-27.44h14.37Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M121.85,53.89l6.61,27.44h-5.02l-1.33-5.78h-7.26l-1.48,5.78h-5.06l6.8-27.44h6.73ZM118.39,59.82l-2.58,11.1h5.21l-2.55-11.1h-.08Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M145.64,53.89v4.64h-6.12v22.81h-5.25v-22.81h-6.12v-4.64h17.48Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M154.54,53.89v22.81h8.44v4.64h-13.68v-27.44h5.25Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M178.36,53.89l6.61,27.44h-5.02l-1.33-5.78h-7.26l-1.48,5.78h-5.06l6.8-27.44h6.73ZM174.91,59.82l-2.58,11.1h5.21l-2.55-11.1h-.08Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M204.67,60.16l-4.71,1.37c-.87-2.58-2.01-3.69-3.84-3.69s-2.89,1.14-2.89,2.96c0,1.94,2.51,3.08,5.13,4.49,4.18,2.24,6.58,4.64,6.58,8.59,0,5.06-3.73,7.83-8.7,7.83-4.64,0-7.68-2.66-9.01-7.72l5.17-1.1c.53,2.89,2.13,4.48,4.07,4.48s3.23-1.33,3.23-3.27c0-2.55-2.58-3.69-6.46-5.85-3.53-1.98-5.25-4.18-5.25-7.07,0-5.06,3.19-7.68,8.25-7.68,4.29,0,7.37,2.36,8.44,6.65Z%27/%3e%3cpath%20class=%27cls-1%27%20d=%27M206.68,53.81v.56h-.74v2.75h-.63v-2.75h-.74v-.56h2.11Z%27/%3e%3cpath%20class=%27cls-1%27%20d=%27M208.05,53.81l.57,2.17h0l.57-2.17h.89v3.32h-.54v-2.61h0l-.68,2.61h-.48l-.67-2.61h-.01v2.61h-.54v-3.32h.89Z%27/%3e%3cpolygon%20class=%27cls-2%27%20points=%2756.75%2020.61%2043.25%2020.61%2023.65%2075.75%2037.7%2070.89%2050.04%2033.04%2063.41%2070.89%2076.35%2075.75%2056.75%2020.61%27/%3e%3cpolygon%20class=%27cls-2%27%20points=%2750%2065.6%2056.91%2077.57%2043.09%2077.57%2050%2065.6%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M14.65,14.65C5.75,23.55.56,35.34.03,47.86l-.03.69,6.44-3.72.02-.19C8.91,24.61,24.61,8.91,44.64,6.46l.19-.02,3.72-6.44-.69.03c-12.52.53-24.31,5.72-33.21,14.62Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M55.36,6.46c20.03,2.45,35.73,18.15,38.18,38.18l.02.19,6.44,3.72-.03-.69c-.53-12.52-5.72-24.31-14.62-33.21C76.45,5.75,64.66.56,52.14.03l-.69-.03,3.72,6.44.19.02Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M93.54,55.36c-2.45,20.03-18.15,35.73-38.18,38.18l-.19.02-3.72,6.44.69-.03c12.52-.53,24.31-5.72,33.21-14.62,8.9-8.9,14.09-20.69,14.62-33.21l.03-.69-6.44,3.72-.02.19Z%27/%3e%3cpath%20class=%27cls-3%27%20d=%27M44.64,93.54c-20.03-2.45-35.73-18.15-38.18-38.18l-.02-.19-6.44-3.72.03.69c.53,12.52,5.72,24.31,14.62,33.21,8.9,8.9,20.69,14.09,33.21,14.62l.69.03-3.72-6.44-.19-.02Z%27/%3e%3c/g%3e%3c/svg%3e" style=""><!----><!----><!----><!----><!----></div></div><div class="v-card-text"><div class="mt-5"> ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups. </div></div><div class="v-card-actions" style="justify-content: center;"><a class="v-btn v-btn--slim v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-outlined" href="https://atlas.mitre.org/pdf-files/MITRE_ATLAS_Fact_Sheet.pdf"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Get the fact sheet</span><span class="v-btn__append"><i class="mdi-chevron-right mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----></a></div><!----><!----><span class="v-card__underlay"></span></div></div><div class="v-col"><div class="v-row"><div class="v-col"><div class="text-h6 text-center">Quick Links</div></div></div><div class="v-row"><div class="v-col v-col-6"><a class="v-btn v-btn--block v-theme--mainTheme v-btn--density-default v-btn--size-large v-btn--variant-outlined text-none text-body-1" href="https://atlas.mitre.org/resources/contact"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-account-circle mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator="">Contact Us</span><!----><!----></a></div><div class="v-col v-col-6"><a class="v-btn v-btn--block v-theme--mainTheme v-btn--density-default v-btn--size-large v-btn--variant-outlined text-none text-body-1" href="https://atlas.mitre.org/resources/ai-security-101"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-school mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator="">AI Security 101</span><!----><!----></a></div><div class="v-col v-col-6"><a class="v-btn v-btn--block v-theme--mainTheme v-btn--density-default v-btn--size-large v-btn--variant-outlined text-none text-body-1" href="https://atlas.mitre.org/resources/events"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-calendar mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator="">Upcoming events</span><!----><!----></a></div><div class="v-col v-col-6"><a class="v-btn v-btn--block v-theme--mainTheme v-btn--density-default v-btn--size-large v-btn--variant-outlined text-none text-body-1" href="https://atlas.mitre.org/resources/info"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-file-download mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator="">Get ATLAS Data</span><!----><!----></a></div><div class="v-col v-col-6"><a class="v-btn v-btn--block v-theme--mainTheme v-btn--density-default v-btn--size-large v-btn--variant-outlined text-none text-body-1" href="https://atlas.mitre.org/resources/faq"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-help mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator="">Terminology and FAQ</span><!----><!----></a></div><div class="v-col v-col-6"><a class="v-btn v-btn--block v-theme--mainTheme v-btn--density-default v-btn--size-large v-btn--variant-outlined text-none text-body-1" href="https://atlas.mitre.org/techniques"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-strategy mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator="">View all techniques</span><!----><!----></a></div></div></div></div></div><div data-v-75c0f7c8="" class="v-container v-container--fluid v-locale--is-ltr px-0"><div data-v-75c0f7c8="" class="v-row matrix-image"></div><div data-v-75c0f7c8="" class="v-row align-center justify-center home-panel navy-container matrix-gradient text-white h-100"><div data-v-75c0f7c8="" class="v-container v-locale--is-ltr" styling="padding-left: 0px; padding-right: 0px;"><div data-v-75c0f7c8="" class="v-row"><div data-v-75c0f7c8="" class="v-col"><div data-v-75c0f7c8="" class="text-h5"> ATLAS is modeled after and complementary to <span data-v-75c0f7c8="" class="text-lightBlue">MITRE ATT&amp;CK®</span>, raising awareness of the rapidly evolving vulnerabilities of <span data-v-75c0f7c8="" class="text-lightBlue">Al-enabled systems</span> as they extend beyond cyber. </div></div><div data-v-75c0f7c8="" class="v-col"><div data-v-75c0f7c8="" class="v-row mb-5"><div data-v-75c0f7c8="" class="v-col v-col-3"><div data-v-75c0f7c8="" class="ma-3"><div class="v-row justify-center"><div class="text-h3 text-lightBlue">14</div></div><div class="v-row justify-center"><div class="text-subtitle-1 font-weight-bold text-uppercase text-center">tactics</div></div></div></div><div data-v-75c0f7c8="" class="v-col v-col-3"><div data-v-75c0f7c8="" class="ma-3"><div class="v-row justify-center"><div class="text-h3 text-lightBlue">91</div></div><div class="v-row justify-center"><div class="text-subtitle-1 font-weight-bold text-uppercase text-center">techniques</div></div></div></div><div data-v-75c0f7c8="" class="v-col v-col-3"><div data-v-75c0f7c8="" class="ma-3"><div class="v-row justify-center"><div class="text-h3 text-lightBlue">26</div></div><div class="v-row justify-center"><div class="text-subtitle-1 font-weight-bold text-uppercase text-center">mitigations</div></div></div></div><div data-v-75c0f7c8="" class="v-col v-col-3"><div data-v-75c0f7c8="" class="ma-3"><div class="v-row justify-center"><div class="text-h3 text-lightBlue">26</div></div><div class="v-row justify-center"><div class="text-subtitle-1 font-weight-bold text-uppercase text-center">case studies</div></div></div></div></div><div data-v-75c0f7c8="" class="v-row justify-center mt-5"><a data-v-75c0f7c8="" class="v-btn v-theme--mainTheme v-btn--density-default v-btn--size-x-large v-btn--variant-tonal" href="https://atlas.mitre.org/matrices/ATLAS"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">See the full ATLAS Matrix</span><span class="v-btn__append"><i class="mdi-chevron-right mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----></a></div></div></div></div></div></div><div class="v-container v-locale--is-ltr home-panel"><div class="v-row"><div class="text-h4 mb-10">News and Resources</div></div><div class="v-row"><div class="v-col v-col-4"><div class="v-card v-theme--mainTheme v-card--density-default v-card--variant-elevated d-flex flex-column fill-height" style="max-width: 400px;"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--mainTheme v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);"><!----><div class="v-progress-linear__background" style="width: 100%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><a href="https://aivillage.org/" target="_blank"><div class="v-responsive v-img v-img--booting" style="height: 200px;"><div class="v-responsive__sizer"></div><!----><!----><!----><!----><!----><!----></div></a><div class="v-card-title"><div class="text-h4 text-wrap">DEF CON 2024</div></div><div class="v-card-subtitle">8 August 2024 - Las Vegas, NV</div><div class="v-card-text"><p>The ATLAS team is giving the AI Security Keynote at the DEFCON AI Village and is also involved in shaping <a href="https://aivillage.org/generative%20red%20team/generative-red-team-2/">Generative Red Team 2</a>. Hope to see you there!</p>
+</div><div><a class="v-btn v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text justify-start ma-1" href="https://aivillage.org/" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Learn more </span><span class="v-btn__append"><i class="mdi-chevron-right mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----></a></div><!----><!----><span class="v-card__underlay"></span></div></div><div class="v-col v-col-4"><div class="v-card v-theme--mainTheme v-card--density-default v-card--variant-elevated d-flex flex-column fill-height" style="max-width: 400px;"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--mainTheme v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);"><!----><div class="v-progress-linear__background" style="width: 100%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><a href="https://www.blackhat.com/" target="_blank"><div class="v-responsive v-img v-img--booting" style="height: 200px;"><div class="v-responsive__sizer"></div><!----><!----><!----><!----><!----><!----></div></a><div class="v-card-title"><div class="text-h4 text-wrap">Black Hat USA 2024</div></div><div class="v-card-subtitle">3 August 2024 - Las Vegas, NV</div><div class="v-card-text"><p>BlackHat is an internationally recognized cybersecurity event series providing the most technical and relevant information security research.</p>
+</div><div><a class="v-btn v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text justify-start ma-1" href="https://www.blackhat.com/" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Learn more </span><span class="v-btn__append"><i class="mdi-chevron-right mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----></a></div><!----><!----><span class="v-card__underlay"></span></div></div><div class="v-col v-col-4"><div class="v-card v-theme--mainTheme v-card--density-default v-card--variant-elevated d-flex flex-column fill-height" style="max-width: 400px;"><!----><div class="v-card__loader"><div class="v-progress-linear v-theme--mainTheme v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px; left: 50%; transform: translateX(-50%);"><!----><div class="v-progress-linear__background" style="width: 100%;"></div><div class="v-progress-linear__indeterminate"><div class="v-progress-linear__indeterminate long"></div><div class="v-progress-linear__indeterminate short"></div></div><!----></div></div><!----><!----><a href="https://www.rsaconference.com/usa" target="_blank"><div class="v-responsive v-img v-img--booting" style="height: 200px;"><div class="v-responsive__sizer"></div><!----><!----><!----><!----><!----><!----></div></a><div class="v-card-title"><div class="text-h4 text-wrap">RSA Conference 2024</div></div><div class="v-card-subtitle">6 May 2024 - San Francisco, CA</div><div class="v-card-text"><p>Join RSAC 2024 and celebrate limitless opportunities, challenge the status quo, and explore new horizons together.</p>
+</div><div><a class="v-btn v-theme--mainTheme v-btn--density-default v-btn--size-default v-btn--variant-text justify-start ma-1" href="https://www.rsaconference.com/usa" target="_blank"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Learn more </span><span class="v-btn__append"><i class="mdi-chevron-right mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----></a></div><!----><!----><span class="v-card__underlay"></span></div></div></div></div></div></div><div data-v-88c50455="" class="v-layout-item text-end pointer-events-none" style="bottom: 0px; z-index: 1006; transform: translateY(0%); position: fixed; height: 88px; left: 0px; width: calc(100% + 0px);"><div data-v-88c50455="" class="ma-4"><button data-v-88c50455="" type="button" class="v-btn v-btn--elevated v-btn--icon v-theme--mainTheme bg-blue v-btn--density-default elevation-8 v-btn--size-large v-btn--variant-elevated mt-auto pointer-events-initial" style="transform-origin: center center; display: none;"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""><i class="mdi-chevron-up mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----><!----></button></div></div></main><footer class="v-footer v-theme--mainTheme px-0" style="bottom: 88px; z-index: 1004; transform: translateY(0%); position: absolute; left: 0px; width: calc(100% + 0px);"><div class="v-row"><div data-v-0f5504ff="" class="v-container v-container--fluid v-locale--is-ltr navy-container home-panel" align="center" justify="center"><div data-v-0f5504ff="" class="v-container v-locale--is-ltr"><div data-v-0f5504ff="" class="v-row text-white"><div data-v-0f5504ff="" class="v-col"><div data-v-0f5504ff="" class="v-row"><div data-v-0f5504ff="" class="text-h5 text-start"> Join our collaborative community to shape future tool and framework developments in AI security, threat mitigation, bias, privacy and other critical aspects of AI assurance. </div></div><div data-v-0f5504ff="" class="v-row justify-start mt-5"><a data-v-0f5504ff="" class="v-btn v-theme--mainTheme text-lightBlue v-btn--density-default v-btn--size-x-large v-btn--variant-tonal mt-5" href="https://atlas.mitre.org/resources/contact"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Connect with us</span><span class="v-btn__append"><i class="mdi-chevron-right mdi v-icon notranslate v-theme--mainTheme v-icon--size-default" aria-hidden="true"></i></span><!----></a></div></div><div data-v-0f5504ff="" class="v-col" justify="center"><a data-v-0f5504ff="" href="https://www.mitre.org/" class="text-white" style="display: inline-block;"><div data-v-0f5504ff="" class="v-responsive v-img" style="height: 100px; width: 150px;"><div class="v-responsive__sizer" style="padding-bottom: 66.9643%;"></div><img class="v-img__img v-img__img--contain" src="./MITRE ATLAS™_files/MITRE_Mission_Vertical_White-TA5P1uib.svg" style=""><!----><!----><!----><!----><!----></div> www.mitre.org </a></div></div></div></div><div class="v-container v-locale--is-ltr"><div class="my-5"><div>© 2021-2024 The MITRE Corporation. All Rights Reserved.</div><div>Approved for Public Release; Distribution Unlimited. Case Number 21-2363.</div><div> MITRE ATLAS™ and MITRE ATT&amp;CK<sup>®</sup> are a trademark and registered trademark of The MITRE Corporation. </div><div class="mt-2"><a href="https://www.mitre.org/privacy-policy">Privacy Policy</a> | <a href="https://atlas.mitre.org/terms" class="">Terms of Use</a><span> | <a href="https://atlas.mitre.org/#" onclick="Osano.cm.showDrawer(&#39;osano-cm-dom-info-dialog-open&#39;)">Manage Cookies</a></span></div></div></div></div></footer></div></div></div>
+  
+
+<div class="v-overlay-container"></div></body></html>
